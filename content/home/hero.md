@@ -2,8 +2,8 @@
 widget: hero
 headless: true
 weight: 10
-title: Project Docs Template
-hero_media: book.svg
+title: XFlow - A Library for Network Flow
+hero_media:
 design:
   background:
     gradient_start: '#4bb4e3'
@@ -24,8 +24,11 @@ cta_note:
     </span>
 ---
 
-Published with the [Wowchemy Website Builder](https://wowchemy.com/) for Hugo.
+Develop algorithms with the [XFlow](https://github.com/aquastar/xflow).
 
-Write something interesting about your project here.
+XFlow is a platform that make the algorithm development easy on network flow problems.
 
-<a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-themes" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Wowchemy Website Builder for Hugo">Star Wowchemy Website Builder for Hugo</a><br><a class="github-button" href="https://github.com/wowchemy/hugo-documentation-theme" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star the Project Docs template">Star the Hugo Documentation Theme</a><script async defer src="https://buttons.github.io/buttons.js"></script>
+<a class="github-button" href="https://github.com/aquastar/xflow" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Wowchemy Website Builder for Hugo">Star XFlow</a>
+
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
