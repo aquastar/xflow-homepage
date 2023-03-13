@@ -2,7 +2,7 @@
 widget: hero
 headless: true
 weight: 10
-title: XFlow - A Library for Network Flow
+title:
 hero_media:
 design:
   background:
@@ -18,17 +18,11 @@ cta_alt:
   url: docs/
   label: View Documentation
 cta_note:
-  label: >-
-    <span class="js-github-release" data-repo="wowchemy/wowchemy-hugo-themes">
-      Project version will appear here<!-- Automatically filled based on data-repo value -->
-    </span>
+  label: 
 ---
 
-Develop algorithms with the [XFlow](https://github.com/aquastar/xflow).
-
-XFlow is a platform that make the algorithm development easy on network flow problems.
-
-<a class="github-button" href="https://github.com/aquastar/xflow" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Wowchemy Website Builder for Hugo">Star XFlow</a>
+**XFlow** is a platform that simplifies the development of algorithms for network flow problems, including a Python library with benchmarks, baselines, evaluation, and a collection of resources. 
 
 
+<a class="github-button" href="https://github.com/aquastar/xflow" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star XFlow">XFlow</a>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
