@@ -21,7 +21,8 @@ marketing:
     description: 'XFlow - A Library for Network Flow'
     twitter: 'imczq'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-CGCT2951HB'
+    google_tag_manager: 'GTM-TH2D6DR'
     baidu_tongji: ''
   verification:
     google: ''
