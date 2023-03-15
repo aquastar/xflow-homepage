@@ -12,31 +12,37 @@ design:
   columns: '1'
 ---
 
-
-
-
-![PyPI](https://badgen.net/badge/pypi/2.2.0/green?icon=pypi)![Testing Status](https://badgen.net/badge/testing/passing/green?icon=github)![Docs Status](https://badgen.net/badge/docs/passing/green?icon=)![Contributing](https://badgen.net/badge/contributions/welcome/green?icon=github)
-
-\
-\
-**[Documentation](https://pytorch-geometric.readthedocs.io)** | **[Paper](https://arxiv.org/abs/1903.02428)** | **[Colab Notebooks and Video Tutorials](https://pytorch-geometric.readthedocs.io/en/latest/get_started/colabs.html)** 
-
-
-
-[comment]: <> (add icons https://css-tricks.com/adding-custom-github-badges-to-your-repo/)
-
---------------------------------------------------------------------------------
-
+# Table of Content 
 * [Spreading Task](#spreading-task)
 * [Backtracking Task](#backtracking-task)
 * [Diffusion Learning Task](#diffusion-learning-task)
 * [Explanability Task](#explanability-task)
 * [Installation](#installation)
 
+{{< icon name="terminal" pack="fas" >}} Terminal  
+{{< icon name="python" pack="fab" >}} Python  
+{{< icon name="github" pack="fab" >}} R
+
+<script src="https://gist.github.com/aquastar/d56d90865c578621eee10958ded7e7f9.js"></script>
+
+
+
+
+{{< math >}}
+$$
+\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
+$$
+{{< /math >}}
 
 # Spreading Task 
 
 [comment]: <> (put NIB here)
+
+```python
+# Example of code highlighting
+input_string_var = input("Enter some data: ")
+print("You entered: {}".format(input_string_var))
+```
 
 
 selected variants
@@ -176,4 +182,4 @@ We are motivated to constantly make XFlow even better.
 
 
 
-<a class="github-button" href="https://github.com/aquastar/xflow" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star XFlow">Awesome Network Flow</a>
+<a class="github-button" href="https://github.com/aquastar/awesome-network-flow" data-icon="octicon-star" data-size="large" data-show-count="false" aria-label="Star XFlow">Awesome Network Flow</a>

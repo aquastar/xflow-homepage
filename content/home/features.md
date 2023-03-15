@@ -18,3 +18,5 @@ feature:
     name: Personal Notebook
     description: For yourself
 ---
+
+<a class="github-button" href="https://github.com/aquastar/xflow" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star XFlow">Star XFlow</a>

@@ -10,19 +10,19 @@ design:
     gradient_end: '#2b94c3'
     text_color_light: true
 cta:
-  url: docs/
+  url: https://github.com/aquastar/xflow
   label: Get Started
-  icon_pack: fas
-  icon: download
+  icon_pack: fab
+  icon: github
 cta_alt:
   url: docs/
   label: View Documentation
 cta_note:
   label: 
 ---
+<!-- https://www.w3schools.com/icons/icons_reference.asp -->
+**XFlow**  is a platform that simplifies the development of algorithms for network flow problems, including a Python library with benchmarks, baselines, evaluation, and a collection of resources. 
 
-**XFlow** is a platform that simplifies the development of algorithms for network flow problems, including a Python library with benchmarks, baselines, evaluation, and a collection of resources. 
 
-
-<a class="github-button" href="https://github.com/aquastar/xflow" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star XFlow">XFlow</a>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+
