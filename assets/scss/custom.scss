@@ -4,18 +4,25 @@ body {
 	font-family: Optima, "Avenir Next", Avenir, Calibri, Arial, sans-serif;
 }
 
-h1{
-	font-size:1.2rem;
-}
-h3{
-	font-size:1rem;
-}
+
 .navbar {
-	font-size:1rem
+	font-size:1.6rem
 }
-.container	{
-	margin-top: 0rem;
+
+
+.hero{
+	padding: 0;
 }
 .home-section	{
-	padding: 1rem;
+	padding: 0.1rem;
+}
+.col-12 figure{
+	float: left;
+	margin-right:10px
+}
+.col-12 {
+	display: block;
+}
+.hero-lead {
+	max-width: 100%;
 }

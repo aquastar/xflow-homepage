@@ -1,7 +1,7 @@
 ---
 widget: featurette
-headless: true
-weight: 20
+headless: false
+weight: 30
 title: Features
 subtitle: Document _anything_ ✨
 feature:
