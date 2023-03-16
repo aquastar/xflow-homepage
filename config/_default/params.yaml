@@ -15,7 +15,7 @@ appearance:
 
 marketing:
   seo:
-    site_type: Project
+    site_type: Organization
     local_business_type: ''
     org_name: 'Zhiqian Chen'
     description: 'XFlow - A Library for Network Flow'
@@ -36,10 +36,12 @@ header:
     enable: true
     align: l
     show_logo: true
-    show_language: true
+    show_language: false
     show_day_night: true
     show_search: true
     highlight_active_link: true
+
+# Site footer
 
 footer:
   copyright:
@@ -70,10 +72,6 @@ features:
     url: 'https://github.com/aquastar/xflow'
     content_dir: content
     branch: main
-  feedback:
-    responses:
-      positive: 'Glad to hear it! [Any ideas for improvements?](https://github.com/<USERNAME>/<REPO>/issues/new).'
-      negative: 'Sorry to hear that. [Please tell us how we can improve](https://github.com/<USERNAME>/<REPO>/issues/new).'
   comment:
     provider: ''
     disqus:
@@ -93,3 +91,10 @@ features:
       api_key: ''
       index_name: ''
       show_logo: false
+
+extensions:
+  cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: false

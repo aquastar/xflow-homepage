@@ -1,22 +1,20 @@
 ---
 widget: featurette
-headless: false
-weight: 30
+headless: true
+weight: 20
 title: Features
-subtitle: Document _anything_ ✨
+subtitle: ✨ Teach _anything_ with
 feature:
-  - icon: book-open
+  - icon: chalkboard-teacher
     icon_pack: fas
-    name: Project Documentation
-    description: For users
-  - icon: question
+    name: Slides
+    description:
+  - icon: video
     icon_pack: fas
-    name: Knowledge Base
-    description: For teams
-  - icon: list-alt
+    name: Video
+    description:
+  - icon: code
     icon_pack: fas
-    name: Personal Notebook
-    description: For yourself
+    name: Math & Code
+    description:
 ---
-
-<a class="github-button" href="https://github.com/aquastar/xflow" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star XFlow">Star XFlow</a>

@@ -1,4 +1,4 @@
-module github.com/wowchemy/hugo-documentation-theme
+module github.com/wowchemy/starter-hugo-online-course
 
 go 1.15
 
