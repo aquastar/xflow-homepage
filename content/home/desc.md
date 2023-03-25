@@ -12,27 +12,22 @@ design:
   columns: '1'
 ---
 
-# Table of Content 
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+<a class="github-button" href="https://github.com/aquastar/xflow" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star XFlow">Star XFlow</a>
+<a class="github-button" href="https://github.com/aquastar/awesome-network-flow" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Awesome Network Flow">Star Awesome Network Flow</a>
+
+Xflow is a python library for design network flow problems.
+
+
 * [Spreading Task](#spreading-task)
 * [Backtracking Task](#backtracking-task)
 * [Diffusion Learning Task](#diffusion-learning-task)
 * [Explanability Task](#explanability-task)
 * [Installation](#installation)
 
-{{< icon name="terminal" pack="fas" >}} Terminal  
-{{< icon name="python" pack="fab" >}} Python  
-{{< icon name="github" pack="fab" >}} R
 
-<script src="https://gist.github.com/aquastar/d56d90865c578621eee10958ded7e7f9.js"></script>
-
-
-
-
-{{< math >}}
-$$
-\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
-$$
-{{< /math >}}
 
 # Spreading Task 
 
@@ -126,22 +121,6 @@ selected variants
 traffic 
 
 
-# Multilayer
-
-- percolation
-- synchronization
-
-Question: main-stream task of single and multilayer network has little overlap. So they can be extended to each other.
-
-## Benchmarks
-
-## Implemented Baselines
-
-## Evaluation
-
-## Create your own models
-
-
 
 
 # Installation
@@ -159,27 +138,3 @@ pip install torch_cluster torch_spline_conv -f https://data.XFlow.org/whl/torch-
 ```
 
 
-## Cite
-
-Please cite [our paper](https://arxiv.org/abs/1903.02428) (and the respective papers of the methods used) if you use this code in your own work:
-
-```
-@inproceedings{XXX,
-  title={XXX},
-  author={XXX},
-  booktitle={XXX},
-  year={2023},
-}
-```
-
-Feel free to [email us](mailto:zchen@cse.msstate.edu) if you wish your work to be listed in this repo.
-If you notice anything unexpected, please open an [issue](XXX) and let us know.
-If you have any questions or are missing a specific feature, feel free [to discuss them with us](XXX).
-We are motivated to constantly make XFlow even better.
-
-
-
-
-
-
-<a class="github-button" href="https://github.com/aquastar/awesome-network-flow" data-icon="octicon-star" data-size="large" data-show-count="false" aria-label="Star XFlow">Awesome Network Flow</a>

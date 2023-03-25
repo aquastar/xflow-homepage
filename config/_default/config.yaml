@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 'XFlow for Network Flow Research' # Website name
+title: 'XFlow' # Website name
 baseURL: 'https://xflow.network' # Website URL
 
 ############################
