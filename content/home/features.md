@@ -3,18 +3,18 @@ widget: featurette
 headless: true
 weight: 20
 title: Features
-subtitle: ✨ Teach _anything_ with
+subtitle:
 feature:
   - icon: chalkboard-teacher
     icon_pack: fas
-    name: Slides
+    name: Ready to use, easy to extend
     description:
   - icon: video
     icon_pack: fas
-    name: Video
+    name: Work with NetworkX, PyG
     description:
   - icon: code
     icon_pack: fas
-    name: Math & Code
+    name: Visualization
     description:
 ---
