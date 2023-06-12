@@ -1,11 +1,11 @@
 ---
-title: Python basics
+title: Diffusion
 date: '2021-01-01'
 type: book
 weight: 20
 ---
 
-Build a foundation in Python.
+Introduction to diffusion models
 
 <!--more-->
 

@@ -18,7 +18,7 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: 'Zhiqian Chen'
-    description: 'XFlow - A Library for Network Flow'
+    description: 'XFlow - A Library for Graph Flow'
     twitter: 'imczq'
   analytics:
     google_analytics: 'G-CGCT2951HB'
@@ -61,15 +61,15 @@ locale:
 # Site features
 
 features:
-  syntax_highlighter:
-    theme_light: github-light
-    theme_dark: github-dark
+  syntax_highlighter: 
+    theme_light: dracula
+    theme_dark: dracula
   math:
     enable: true
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/aquastar/xflow'
+    url: 'https://github.com/XGraphing/XFlow'
     content_dir: content
     branch: main
   comment:
