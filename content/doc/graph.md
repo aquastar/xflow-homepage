@@ -5,31 +5,16 @@ type: book
 weight: 20
 math: true
 tags:
-  - Statistics
+  - 
 ---
 
 Introduction to graphs data.
 
 <!--more-->
 
-{{< icon name="clock" pack="fas" >}} 1-2 hours per week, for 8 weeks
+XFlow incorporates existing dataset collections and can be extended easily.
+Specifically, our implementation is compatible with any graph in NetworkX [^1] graph object, including graphs such as Watts-Strogatz small-world graphs, Barabási–Albert (BA), Erdős–Rényi (ER). See the full list in Graph Generators in NetworkX; 
+Or graph objects in PyTorch Geometric such as Cora, Cite Seer, PubMed and co-purchasing networks (Amazon Photo, Computers) as well as synthetic graph generators. See torch\_geometric.datasets in PyTorch Geometric [^2].
 
-## Learn
-
-The general form of the **normal** probability density function is:
-
-$$
-f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
-$$
-
-{{< callout note >}}
-The parameter $\mu$ is the mean or expectation of the distribution.
-$\sigma$ is its standard deviation.
-The variance of the distribution is $\sigma^{2}$.
-{{< /callout >}}
-
-## Quiz
-
-{{< spoiler text="What is the parameter $\mu$?" >}}
-The parameter $\mu$ is the mean or expectation of the distribution.
-{{< /spoiler >}}
+[^1]: [NetworkX](https://networkx.org)
+[^2]: [PyG](https://pytorch-geometric.readthedocs.io/en/latest/)
