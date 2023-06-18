@@ -30,25 +30,35 @@ pip install xflow-net
 
 ```python
 import xflow
-from xflow.dataset import cora, random, ba
-from xflow.diffusion import ic, si
-from xflow.seed import random, degree, eigen
-from xflow.method.im import celf, sigma
+from xflow.dataset.nx import BA, connSW
+from xflow.dataset.pyg import Cora
+from xflow.diffusion.SI import SI
+from xflow.diffusion.IC import IC
+from xflow.diffusion.LT import LT
+from xflow.seed import random as seed_random, degree as seed_degree, eigen as seed_eigen
+from xflow.util import run
 
 # graphs to test
-gs = [cora, random, ba]
+fn = lambda: connSW(n=1000, beta=0.1)
+fn.__name__ = 'connSW'
+gs = [Cora, fn, BA]
 
 # diffusion models to test
-df = [ic, si]
+df = [SI, IC, LT]
 
 # seed configurations to test
-se = [random, degree, eigen]
+se = [seed_random, seed_degree, seed_eigen]
 
-# methods to test
-me = [celf, sigma, imrank]
+# run
 
-# configurations of experiments
-rt = run(graph=gs, diffusion=df, seed=se, method=me, eval='im', epoch=10, output=['animation', 'csv', 'fig'])
+# configurations of IM experiments
+from xflow.method.im import pi as im_pi, degree as im_degree, sigma as im_sigma, celfpp as im_celfpp, greedy as im_greedy
+me = [im_pi]
+rt = run (
+    graph = gs, diffusion = df, seeds = se,
+    method = me, eval = 'im', epoch = 10, 
+    budget = 10, 
+    output = [ 'animation', 'csv', 'fig'])
 ```
 
 <!-- {{< figure src="featured.jpg" >}} -->
