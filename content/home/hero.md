@@ -29,6 +29,6 @@ advanced:
 A Python library for **graph flow problems** 
 
 
-<a class="github-button" href="https://github.com/aquastar/xflow" data-icon="octicon-star" data-size="large" data-show-count="false" aria-label="Star XFlow">Star XFlow</a>
+<a class="github-button" href="https://github.com/aquastar/xflow" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star XFlow">Star XFlow</a>
 <a class="github-button" href="https://github.com/aquastar/awesome-network-flow" data-icon="octicon-star" data-size="large" data-show-count="false" aria-label="Star Awesome Network Flow">Star Awesome Graph Flow</a>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
